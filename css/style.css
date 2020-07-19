@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+.navbar .navbar-nav .nav-item .nav-link, .banner .row .icon a, .btn-custom a {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+body {
+  max-width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #2d3950;
+  line-height: 1.6; }
+
+.navbar {
+  padding: 30px 0;
+  background-color: #F8F9FA; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #2d3950;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #15a4fa; }
+
+.banner {
+  background-image: url(../images/Strict.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh; }
+  .banner .row {
+    min-height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative; }
+    .banner .row h1 {
+      font-size: 120px;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .banner .row span {
+      width: 100%;
+      display: block;
+      background-color: #15a4fa;
+      height: 3px;
+      margin-bottom: 20px; }
+    .banner .row p {
+      font-size: 20px;
+      padding-bottom: 32px; }
+    .banner .row .icon {
+      position: absolute;
+      left: 50%;
+      bottom: -50%;
+      transform: translateX(-50%); }
+      .banner .row .icon a {
+        font-size: 24px;
+        color: #fff; }
+        .banner .row .icon a:hover {
+          color: #15a4fa; }
+
+.btn-custom {
+  padding: 0; }
+  .btn-custom a {
+    border: 1px solid #15a4fa;
+    border-radius: 7px;
+    padding: 13px 30px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none; }
+    .btn-custom a:hover {
+      background-color: #15a4fa; }
+
+.contant .contant-section {
+  padding: 6rem 0;
+  text-align: center; }
+  .contant .contant-section h3 {
+    color: #2d3950;
+    font-size: 48px;
+    font-weight: 500; }
+  .contant .contant-section p {
+    color: #333333b5;
+    font-size: 20px;
+    line-height: 1.6; }
+.contant .row .col-section {
+  padding: 16px 0;
+  text-align: center; }
+  .contant .row .col-section .icon {
+    display: block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    margin: 0 auto; }
+    .contant .row .col-section .icon i {
+      text-shadow: -2px 3px 2px #333333b3; }
+  .contant .row .col-section .icon {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+49,5fc3ff+51,5fc3ff+100 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #48baff 0%, #48baff 49%, #5fc3ff 51%, #5fc3ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #48baff 0%, #48baff 49%, #5fc3ff 51%, #5fc3ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #48baff 0%, #48baff 49%, #5fc3ff 51%, #5fc3ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 );
+    /* IE6-9 */ }
+  .contant .row .col-section h4 {
+    color: #2d3950;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 24px; }
+  .contant .row .col-section p {
+    color: #333333b5;
+    font-size: 16px; }
+
+.ads .row {
+  text-align: center;
+  padding: 32px 0; }
+  .ads .row h2 {
+    font-size: 32px;
+    font-weight: 600; }
+  .ads .row p {
+    font-size: 16px;
+    color: #333333b3; }
+  .ads .row .img {
+    padding-bottom: 20px; }
+
+.contact {
+  background-image: url(../images/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2C374B;
+  background-blend-mode: multiply; }
+  .contact .row {
+    min-height: 650px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .contact .row h2 {
+      font-size: 48px;
+      font-weight: 500;
+      color: #f3f3f3; }
+    .contact .row p {
+      font-size: 17px;
+      color: #c3c3c3;
+      padding-bottom: 24px; }
+    .contact .row .nav {
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      position: relative;
+      padding-top: 8px; }
+    .contact .row h5 {
+      font-size: 16px;
+      color: #c3c3c3;
+      line-height: 16px;
+      padding: 1px 5px; }
+    .contact .row a {
+      padding: 10px 30px; }
+
+footer {
+  background-color: #f8f9fa;
+  padding: 32px 0; }
+  footer .row h5 {
+    font-size: 16px;
+    color: #33333380; }
+  footer .row ul {
+    justify-content: flex-end !important; }
+    footer .row ul li {
+      display: inline-block;
+      list-style: none; }
+      footer .row ul li a {
+        height: 40px;
+        width: 40px;
+        color: #fff;
+        background-color: #15a4fa;
+        margin-left: 8px;
+        display: block;
+        line-height: 40px;
+        text-align: center;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear; }
+        footer .row ul li a:hover {
+          border: 1px solid #15a4fa;
+          background-color: #fff;
+          color: #15a4fa; }
+
+/*# sourceMappingURL=style.css.map */
